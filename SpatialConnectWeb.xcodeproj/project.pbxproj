@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F779ECB0502B6D0A006AFBA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE3D9C3C0123693BBB9FE3B2 /* libPods.a */; };
+		564B19721BE3BE44000C7BAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 564B19711BE3BE44000C7BAE /* main.m */; };
+		564B19751BE3BE44000C7BAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 564B19741BE3BE44000C7BAE /* AppDelegate.m */; };
+		564B19781BE3BE44000C7BAE /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 564B19771BE3BE44000C7BAE /* FirstViewController.m */; };
+		564B197B1BE3BE44000C7BAE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 564B197A1BE3BE44000C7BAE /* SecondViewController.m */; };
+		564B197E1BE3BE44000C7BAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564B197C1BE3BE44000C7BAE /* Main.storyboard */; };
+		564B19801BE3BE44000C7BAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 564B197F1BE3BE44000C7BAE /* Assets.xcassets */; };
+		564B19831BE3BE44000C7BAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564B19811BE3BE44000C7BAE /* LaunchScreen.storyboard */; };
+		564B198E1BE3BE44000C7BAE /* SpatialConnectWebTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 564B198D1BE3BE44000C7BAE /* SpatialConnectWebTests.m */; };
+		564B19991BE3BE44000C7BAE /* SpatialConnectWebUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 564B19981BE3BE44000C7BAE /* SpatialConnectWebUITests.m */; };
+		73F3F566446EC59E108F066C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE3D9C3C0123693BBB9FE3B2 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		564B198A1BE3BE44000C7BAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 564B19651BE3BE43000C7BAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 564B196C1BE3BE44000C7BAE;
+			remoteInfo = SpatialConnectWeb;
+		};
+		564B19951BE3BE44000C7BAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 564B19651BE3BE43000C7BAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 564B196C1BE3BE44000C7BAE;
+			remoteInfo = SpatialConnectWeb;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CC616D285F441AB36C265DA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		564B196D1BE3BE44000C7BAE /* SpatialConnectWeb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpatialConnectWeb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		564B19711BE3BE44000C7BAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		564B19731BE3BE44000C7BAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		564B19741BE3BE44000C7BAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		564B19761BE3BE44000C7BAE /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		564B19771BE3BE44000C7BAE /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		564B19791BE3BE44000C7BAE /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		564B197A1BE3BE44000C7BAE /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		564B197D1BE3BE44000C7BAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		564B197F1BE3BE44000C7BAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		564B19821BE3BE44000C7BAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		564B19841BE3BE44000C7BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		564B19891BE3BE44000C7BAE /* SpatialConnectWebTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpatialConnectWebTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		564B198D1BE3BE44000C7BAE /* SpatialConnectWebTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpatialConnectWebTests.m; sourceTree = "<group>"; };
+		564B198F1BE3BE44000C7BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		564B19941BE3BE44000C7BAE /* SpatialConnectWebUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpatialConnectWebUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		564B19981BE3BE44000C7BAE /* SpatialConnectWebUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpatialConnectWebUITests.m; sourceTree = "<group>"; };
+		564B199A1BE3BE44000C7BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A33BB73A41936C4421C15CC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		DE3D9C3C0123693BBB9FE3B2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		564B196A1BE3BE44000C7BAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F779ECB0502B6D0A006AFBA /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564B19861BE3BE44000C7BAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73F3F566446EC59E108F066C /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564B19911BE3BE44000C7BAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38E6D072BF369C9A0AB9672C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CC616D285F441AB36C265DA /* Pods.debug.xcconfig */,
+				8A33BB73A41936C4421C15CC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		564B19641BE3BE43000C7BAE = {
+			isa = PBXGroup;
+			children = (
+				564B196F1BE3BE44000C7BAE /* SpatialConnectWeb */,
+				564B198C1BE3BE44000C7BAE /* SpatialConnectWebTests */,
+				564B19971BE3BE44000C7BAE /* SpatialConnectWebUITests */,
+				564B196E1BE3BE44000C7BAE /* Products */,
+				38E6D072BF369C9A0AB9672C /* Pods */,
+				8C01603FCBB73D7B35EFC0B4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		564B196E1BE3BE44000C7BAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				564B196D1BE3BE44000C7BAE /* SpatialConnectWeb.app */,
+				564B19891BE3BE44000C7BAE /* SpatialConnectWebTests.xctest */,
+				564B19941BE3BE44000C7BAE /* SpatialConnectWebUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		564B196F1BE3BE44000C7BAE /* SpatialConnectWeb */ = {
+			isa = PBXGroup;
+			children = (
+				564B19731BE3BE44000C7BAE /* AppDelegate.h */,
+				564B19741BE3BE44000C7BAE /* AppDelegate.m */,
+				564B19761BE3BE44000C7BAE /* FirstViewController.h */,
+				564B19771BE3BE44000C7BAE /* FirstViewController.m */,
+				564B19791BE3BE44000C7BAE /* SecondViewController.h */,
+				564B197A1BE3BE44000C7BAE /* SecondViewController.m */,
+				564B197C1BE3BE44000C7BAE /* Main.storyboard */,
+				564B197F1BE3BE44000C7BAE /* Assets.xcassets */,
+				564B19811BE3BE44000C7BAE /* LaunchScreen.storyboard */,
+				564B19841BE3BE44000C7BAE /* Info.plist */,
+				564B19701BE3BE44000C7BAE /* Supporting Files */,
+			);
+			path = SpatialConnectWeb;
+			sourceTree = "<group>";
+		};
+		564B19701BE3BE44000C7BAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				564B19711BE3BE44000C7BAE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		564B198C1BE3BE44000C7BAE /* SpatialConnectWebTests */ = {
+			isa = PBXGroup;
+			children = (
+				564B198D1BE3BE44000C7BAE /* SpatialConnectWebTests.m */,
+				564B198F1BE3BE44000C7BAE /* Info.plist */,
+			);
+			path = SpatialConnectWebTests;
+			sourceTree = "<group>";
+		};
+		564B19971BE3BE44000C7BAE /* SpatialConnectWebUITests */ = {
+			isa = PBXGroup;
+			children = (
+				564B19981BE3BE44000C7BAE /* SpatialConnectWebUITests.m */,
+				564B199A1BE3BE44000C7BAE /* Info.plist */,
+			);
+			path = SpatialConnectWebUITests;
+			sourceTree = "<group>";
+		};
+		8C01603FCBB73D7B35EFC0B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE3D9C3C0123693BBB9FE3B2 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		564B196C1BE3BE44000C7BAE /* SpatialConnectWeb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 564B199D1BE3BE44000C7BAE /* Build configuration list for PBXNativeTarget "SpatialConnectWeb" */;
+			buildPhases = (
+				59D967BA9453E8A0339B14D5 /* Check Pods Manifest.lock */,
+				564B19691BE3BE44000C7BAE /* Sources */,
+				564B196A1BE3BE44000C7BAE /* Frameworks */,
+				564B196B1BE3BE44000C7BAE /* Resources */,
+				9350A51618F9D4F540634E02 /* Embed Pods Frameworks */,
+				87D83B1BB2E6893CC0DCC31A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpatialConnectWeb;
+			productName = SpatialConnectWeb;
+			productReference = 564B196D1BE3BE44000C7BAE /* SpatialConnectWeb.app */;
+			productType = "com.apple.product-type.application";
+		};
+		564B19881BE3BE44000C7BAE /* SpatialConnectWebTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 564B19A01BE3BE44000C7BAE /* Build configuration list for PBXNativeTarget "SpatialConnectWebTests" */;
+			buildPhases = (
+				729EF4A43BE798AAAE754AAA /* Check Pods Manifest.lock */,
+				564B19851BE3BE44000C7BAE /* Sources */,
+				564B19861BE3BE44000C7BAE /* Frameworks */,
+				564B19871BE3BE44000C7BAE /* Resources */,
+				48F2C70D3EE605E1FE4BBFF7 /* Embed Pods Frameworks */,
+				97C8C0CBDB7A0EFCCFB86A3B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				564B198B1BE3BE44000C7BAE /* PBXTargetDependency */,
+			);
+			name = SpatialConnectWebTests;
+			productName = SpatialConnectWebTests;
+			productReference = 564B19891BE3BE44000C7BAE /* SpatialConnectWebTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		564B19931BE3BE44000C7BAE /* SpatialConnectWebUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 564B19A31BE3BE44000C7BAE /* Build configuration list for PBXNativeTarget "SpatialConnectWebUITests" */;
+			buildPhases = (
+				564B19901BE3BE44000C7BAE /* Sources */,
+				564B19911BE3BE44000C7BAE /* Frameworks */,
+				564B19921BE3BE44000C7BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				564B19961BE3BE44000C7BAE /* PBXTargetDependency */,
+			);
+			name = SpatialConnectWebUITests;
+			productName = SpatialConnectWebUITests;
+			productReference = 564B19941BE3BE44000C7BAE /* SpatialConnectWebUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		564B19651BE3BE43000C7BAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Boundless Spatial";
+				TargetAttributes = {
+					564B196C1BE3BE44000C7BAE = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					564B19881BE3BE44000C7BAE = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 564B196C1BE3BE44000C7BAE;
+					};
+					564B19931BE3BE44000C7BAE = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 564B196C1BE3BE44000C7BAE;
+					};
+				};
+			};
+			buildConfigurationList = 564B19681BE3BE43000C7BAE /* Build configuration list for PBXProject "SpatialConnectWeb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 564B19641BE3BE43000C7BAE;
+			productRefGroup = 564B196E1BE3BE44000C7BAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				564B196C1BE3BE44000C7BAE /* SpatialConnectWeb */,
+				564B19881BE3BE44000C7BAE /* SpatialConnectWebTests */,
+				564B19931BE3BE44000C7BAE /* SpatialConnectWebUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		564B196B1BE3BE44000C7BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564B19831BE3BE44000C7BAE /* LaunchScreen.storyboard in Resources */,
+				564B19801BE3BE44000C7BAE /* Assets.xcassets in Resources */,
+				564B197E1BE3BE44000C7BAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564B19871BE3BE44000C7BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564B19921BE3BE44000C7BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48F2C70D3EE605E1FE4BBFF7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59D967BA9453E8A0339B14D5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		729EF4A43BE798AAAE754AAA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		87D83B1BB2E6893CC0DCC31A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9350A51618F9D4F540634E02 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97C8C0CBDB7A0EFCCFB86A3B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		564B19691BE3BE44000C7BAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564B197B1BE3BE44000C7BAE /* SecondViewController.m in Sources */,
+				564B19751BE3BE44000C7BAE /* AppDelegate.m in Sources */,
+				564B19781BE3BE44000C7BAE /* FirstViewController.m in Sources */,
+				564B19721BE3BE44000C7BAE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564B19851BE3BE44000C7BAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564B198E1BE3BE44000C7BAE /* SpatialConnectWebTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564B19901BE3BE44000C7BAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564B19991BE3BE44000C7BAE /* SpatialConnectWebUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		564B198B1BE3BE44000C7BAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 564B196C1BE3BE44000C7BAE /* SpatialConnectWeb */;
+			targetProxy = 564B198A1BE3BE44000C7BAE /* PBXContainerItemProxy */;
+		};
+		564B19961BE3BE44000C7BAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 564B196C1BE3BE44000C7BAE /* SpatialConnectWeb */;
+			targetProxy = 564B19951BE3BE44000C7BAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		564B197C1BE3BE44000C7BAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				564B197D1BE3BE44000C7BAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		564B19811BE3BE44000C7BAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				564B19821BE3BE44000C7BAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		564B199B1BE3BE44000C7BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		564B199C1BE3BE44000C7BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		564B199E1BE3BE44000C7BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CC616D285F441AB36C265DA /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpatialConnectWeb/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boundless.SpatialConnectWeb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		564B199F1BE3BE44000C7BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A33BB73A41936C4421C15CC /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpatialConnectWeb/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boundless.SpatialConnectWeb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		564B19A11BE3BE44000C7BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CC616D285F441AB36C265DA /* Pods.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpatialConnectWebTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boundless.SpatialConnectWebTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpatialConnectWeb.app/SpatialConnectWeb";
+			};
+			name = Debug;
+		};
+		564B19A21BE3BE44000C7BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A33BB73A41936C4421C15CC /* Pods.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpatialConnectWebTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boundless.SpatialConnectWebTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpatialConnectWeb.app/SpatialConnectWeb";
+			};
+			name = Release;
+		};
+		564B19A41BE3BE44000C7BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpatialConnectWebUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boundless.SpatialConnectWebUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SpatialConnectWeb;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		564B19A51BE3BE44000C7BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpatialConnectWebUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boundless.SpatialConnectWebUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SpatialConnectWeb;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		564B19681BE3BE43000C7BAE /* Build configuration list for PBXProject "SpatialConnectWeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564B199B1BE3BE44000C7BAE /* Debug */,
+				564B199C1BE3BE44000C7BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		564B199D1BE3BE44000C7BAE /* Build configuration list for PBXNativeTarget "SpatialConnectWeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564B199E1BE3BE44000C7BAE /* Debug */,
+				564B199F1BE3BE44000C7BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		564B19A01BE3BE44000C7BAE /* Build configuration list for PBXNativeTarget "SpatialConnectWebTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564B19A11BE3BE44000C7BAE /* Debug */,
+				564B19A21BE3BE44000C7BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		564B19A31BE3BE44000C7BAE /* Build configuration list for PBXNativeTarget "SpatialConnectWebUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564B19A41BE3BE44000C7BAE /* Debug */,
+				564B19A51BE3BE44000C7BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 564B19651BE3BE43000C7BAE /* Project object */;
+}
